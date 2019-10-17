@@ -1,0 +1,47 @@
+body
+{
+  background: url('../img/fond2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banderole{
+  background-color: #041899;
+  margin-top: 56px;
+}
+
+.logo-header{
+  height: 100px;
+  margin: 10px;
+}
+
+
+footer{
+  background-color: #041899;
+}
+
+
+
+@media screen and (max-width:750px){
+
+  .logo-header-2{
+    display: none;
+  }
+  #banderole{
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width:1025px){
+ .navbar{
+   display: none;
+ }
+ #banderole{
+   margin-top: 0;
+ }
+
+ .logo-header{
+   margin: 0;
+ }
+
+}
