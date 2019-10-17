@@ -1,9 +1,13 @@
-body
-{
+body{
   background: url('../img/fond2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+
+}
+
+.navbar{
+  background-color: #0a1554;
 }
 
 h1{
@@ -117,7 +121,7 @@ ul li a
 
 /* FIN LISTE */
 
-@media screen and (max-width:770px){
+@media screen and (max-width:760px){
 
   .logo-header-2{
     display: none;
@@ -125,6 +129,7 @@ ul li a
   #banderole{
     justify-content: space-around;
   }
+
 
 }
 
