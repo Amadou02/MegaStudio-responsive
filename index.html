@@ -35,7 +35,7 @@
       </div>
       </div>
 </header>
-<nav>
+<nav class="container-fluid">
   <!-- NAVBAR SMARTPHONE -->
 <div class="navbar fixed-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navigation</a>
@@ -73,33 +73,47 @@
     </div>
     <!-- FIN NAVBAR SMARTPHONE -->
     <!-- NAV DESKTOP -->
-    <ul class="nav nav-pills nav-justified">
-      <li class="nav-item">
-        <a class="nav-link active" href="#!">Active</a>
+    <ul class="row pl-0 m-1 mt-2 nav-desktop">
+      <li class="item"><a href="index.html">Accueil</a></li>
+      <li class="item"><a href="#">Services</a>
+        <ul id="content">
+          <li><a href="sonImage.html">Sons à l'image / Post-production</a></li>
+          <li><a href="priseSon.html">Prise de son</a></li>
+          <li><a href="AudioPist.html">Edition de piste audio</a></li>
+          <li><a href="correctionVocale.html">Correction vocale</a></li>
+          <li><a href="MixAudio.html">Mixage audio</a></li>
+        </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#!">Longer nav link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#!">Link</a>
-      </li>
+      <li class="item"><a href="son.html">Son</a></li>
+      <li class="item"><a href="contact.html">Contact</a></li>
     </ul>
     <!-- FIN NAV DESKTOP -->
 
 </nav>
 
 <main class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      <p class="text-white">MAIN</p>
-
+  <div class="row justify-content-around mt-5">
+    <div class="col-xl-4 col-md-5 p-4 bloc-text border-left-purple">
+      <h2>Bienvenue</h2>
+      <p class="mt-3">Megastudio est un home studio d'enregistrement situé à 15km d'Amiens, vous permettant de réaliser le travail de production musicale de vos titres :
+         enregistrement, édition audio, mixage, etc. Nous vous accompagnons à la prise de son et vous apporte les conseils nécessaires à la prise, afin de vous délivrer le meilleur produit.
+         Disposant de 5 ans d'expérience en prise de son et mixage, nous disposons des outils numériques les plus performants (plugins UAD, Pulteq, Fabfilter, ...)
+         afin de vous délivrer une qualité de mixage professionnelle.</p>
     </div>
+    <div class="col-xl-3 col-md-4 p-4 bloc-text border-left-orange">
+      <h2>News</h2>
+      <p class="mt-3">Bonjour à toutes et à tous ! Une collaboration est en train de naître avec mon acolyte Livia Burton. Nos profils étant complémentaires, elle c'est l'image, et moi c'est le son.
+        Nous préparons une campagne sur Ulule afin de développer le studio. Je vous invite tous à suivre ce lien afin d'être tenus informés du lancement de la campagne à venir.<br>
+        <p>Musicalement,</p>
+        <p>Jérôme & Livia</p>
+
+      </div>
 
   </div>
 
 </main>
 
-<footer class="container-fluid">
+<footer class="container-fluid fixed-bottom">
   <div class="row justify-content-around">
     <div class="col-xl-8 p-1 d-flex justify-content-around">
   <a class="box" target="_blank" href="https://www.facebook.com/megastudioam/?eid=ARBg5Fuig-s3umX3sH4h8xT2lJNyTrr1mIzGdOBbQcd76Vk_Rk_ZCAqJ5uCLuc9Thee7ghZVbb8kqRHV"><img src="assets/img/fb-icon.jpg.png" alt="icone facebook"></a>

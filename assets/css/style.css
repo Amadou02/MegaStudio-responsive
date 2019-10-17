@@ -3,6 +3,17 @@ body
   background: url('../img/fond2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+
+h1{
+  color: white;
+  font-size: 1.4em;
+}
+
+h2{
+  text-align: center;
 }
 
 #banderole{
@@ -15,14 +26,99 @@ body
   margin: 10px;
 }
 
+.bloc-text{
+  background-color: rgba(224, 222, 222, 0.5);
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.border-left-purple{
+border-left: 6px solid purple;
+}
+
+.border-left-orange{
+border-left: 6px solid orange;
+}
 
 footer{
   background-color: #041899;
 }
 
 
+/* LISTE */
+ul{
+  z-index: 1;
 
-@media screen and (max-width:750px){
+}
+
+.item
+{
+  background-color: #041899;
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 5px 1px 3px rgba(0, 0, 0, .3), 5px 3px 5px rgba(0, 0, 0, .2), 0 5px 5px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+.item:hover
+{
+  background-color: black;
+  text-align: center;
+}
+ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+.nav-desktop a
+{
+  text-decoration:none;
+  display:block;
+  padding:8px 32px;
+  font-family:arial;
+}
+                                                /* Gestion liste déroulante */
+.nav-desktop ul
+{
+  position:absolute;
+  max-height:0;
+  left: 0;
+  right: 0;
+  overflow:hidden;
+  -moz-transition: .8s all .3s;
+  -webkit-transition: .8s all .3s;
+  transition: .8s all .3s;
+}
+.nav-desktop li:hover ul
+{
+  max-height:50%;
+}
+.nav-desktop li ul:hover li:hover
+{
+  background-color: black;
+}
+/* On défini la taille de la liste déroulante */
+.nav-desktop li:nth-child(2) li
+{
+  background:#041899;
+  max-width: 25%;
+  margin-left: 24%;
+  list-style: none;
+}
+/* Arrondissement des bords à la fin */
+.nav-desktop ul li:last-child
+{
+  border-radius:0 0 10px 10px;
+}
+
+/* FIN LISTE */
+
+@media screen and (max-width:770px){
 
   .logo-header-2{
     display: none;
@@ -30,6 +126,7 @@ footer{
   #banderole{
     justify-content: space-around;
   }
+
 }
 
 @media screen and (min-width:1025px){
@@ -43,5 +140,12 @@ footer{
  .logo-header{
    margin: 0;
  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .nav-desktop{
+    display: none;
+  }
 
 }
