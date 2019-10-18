@@ -97,6 +97,11 @@ footer{
 
 /* FIN FOOTER */
 
+.ondes{
+  width: 100%;
+  max-width: 346px;
+}
+
 /* DEBUT MEDIA QUERY */
 
 /* Fait disparaitre le logo de droite sur les smartphones et justify-around le titre et le logo de droite */
