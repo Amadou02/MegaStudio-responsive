@@ -97,6 +97,11 @@ footer{
 
 /* FIN FOOTER */
 
+/* page correction vocale */
+.partition{
+  width: 100%;
+}
+
 /* DEBUT MEDIA QUERY */
 
 /* Fait disparaitre le logo de droite sur les smartphones et justify-around le titre et le logo de droite */
