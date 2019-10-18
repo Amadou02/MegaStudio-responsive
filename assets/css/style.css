@@ -102,11 +102,31 @@ footer{
 .partition{
   width: 100%;
 }
+/* Fin page correction vocale */
 
+/* page edition piste audio */
 .ondes{
   width: 100%;
   max-width: 346px;
 }
+/* Fin page edition piste audio */
+
+/* PAGE SON*/
+#soundcloud-list
+{
+  color: white;
+  text-align: center;
+}
+iframe
+{
+  width: 100%;
+}
+
+h2{
+  margin: 20px 0 20px 0;
+  font-size: 40px;
+}
+/* END PAGE SON*/
 
 /* DEBUT MEDIA QUERY */
 
@@ -121,7 +141,7 @@ footer{
   }
 }
 .padding_sound {
-  padding: 100px 50px 0 50px; 
+  padding: 100px 50px 0 50px;
 }
 /* Annule la marge autour du logo en mode desktop */
 @media screen and (min-width:760px){
@@ -137,21 +157,3 @@ footer{
 }
 
 /* FIN MEDIA QUERY */
-
-/* PAGE SON*/
-#soundcloud-list
-{
-  color: white;
-  text-align: center;
-}
-iframe
-{
-  width: 100%;
-}
-
-h1{
-  margin: 20px 0 20px 0;
-  font-size: 40px;
-  font-family: 'DM Serif Text', serif;
-}
-/* END PAGE SON*/
