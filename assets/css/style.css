@@ -97,9 +97,14 @@ footer{
 
 /* FIN FOOTER */
 
+
 /* page correction vocale */
 .partition{
   width: 100%;
+
+.ondes{
+  width: 100%;
+  max-width: 346px;
 }
 
 /* DEBUT MEDIA QUERY */
@@ -130,3 +135,20 @@ footer{
 }
 
 /* FIN MEDIA QUERY */
+
+/* PAGE SON*/
+#soundcloud-list
+{
+  color: white;
+  text-align: center;
+}
+iframe
+{
+  width: 100%;
+}
+h1{
+  margin: 20px 0 20px 0;
+  font-size: 40px;
+  font-family: 'DM Serif Text', serif;
+}
+/* END PAGE SON*/
