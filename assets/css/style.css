@@ -1,0 +1,138 @@
+body
+{
+  background: url('../img/fond2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+                                                              /* Banderole */
+#banderole
+{
+  background-color: #041899;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.logo
+{
+  width: 33%;
+  text-align: center;
+}
+.logo:nth-child(1), .logo:nth-child(3)
+{
+  height: 100%;
+  background-image: url('../img/logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo:nth-child(2)
+{
+  color: white;
+  font-size: 25px;
+}
+.logo:nth-child(3)
+{
+  background-position: right;
+}
+                                                                /* Carrousel */
+#carrousel
+{
+  position: relative;
+  max-width: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+#carrousel figure
+{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+#carrousel figure img
+{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+#carrousel figure
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 40s slidy infinite;
+}
+@keyframes slidy
+{
+  0% { left: 0%; }
+  50% { left: -100%; }
+  100% { left: -200%; }
+}
+.container{
+  background: url('../img/fond2.jpg');
+}
+.jumbotron{
+background: url('../img/fond2.jpg');
+ margin-bottom: 0px;
+ height: 500px;
+}
+}
+.container
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #041899;
+  overflow: hidden;
+  padding-left: 0;
+  border-radius:5px 5px 5px 5px;
+}
+/* navbar */
+.navbar-toggler{
+  background-color: blue;
+  text-align: center;
+}
+#collapsibleNavbar{
+  background-color: blue;
+}
+.navbar-nav{
+  background-color: blue;
+}
+/* footer */
+.container-fluid{
+  text-align: center;
+}
+/* debut du contenu*/
+.containerText
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  text-align: justify;
+}
+h1, h2
+{
+  text-align: center;
+}
+.welcome, .news
+{
+  background-color: rgba(224, 222, 222, 0.5);
+}
+.welcome
+{
+  border-left: 6px solid purple;
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 0 0 10px 0 ;
+}
+.news
+{
+  border-left: 6px solid orange;
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 0 0 10px 0 ;
+}
+/* fin du contenu */
