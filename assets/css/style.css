@@ -108,9 +108,10 @@ footer{
   #banderole{
     justify-content: space-around;
   }
-
 }
-
+.padding_sound {
+  padding: 100px 50px 0 50px; 
+}
 /* Annule la marge autour du logo en mode desktop */
 @media screen and (min-width:760px){
 
