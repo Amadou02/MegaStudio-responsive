@@ -110,6 +110,9 @@ h2{
   #banderole{
     justify-content: space-around;
   }
+  .map-link-nav-xl{
+    display: none;
+  }
 }
 /* Annule la marge autour du logo en mode desktop */
 @media screen and (min-width:760px){
@@ -118,6 +121,12 @@ h2{
  }
  .logo-header{
    margin: 0;
+ }
+ .map-link-nav-sm{
+   display: none;
+ }
+ .map-link-nav-xl{
+transform: translateX(60%);
  }
 }
 /* FIN MEDIA QUERY */
