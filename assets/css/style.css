@@ -1,9 +1,7 @@
 /* DEBUT STYLE GENERAUX */
-
 *{
   font-family: serif;
 }
-
 body{
   background: url('../img/fond2.jpg');
   background-size: cover;
@@ -13,84 +11,62 @@ body{
   margin: 0;
   padding-bottom: 4rem;
 }
-
 h1{
   color: white;
   font-size: 1.5em;
 }
-
 h2{
   text-align: center;
   font-weight: bold;
 }
-
 p{
   font-size: 1.1em;
 }
-
 /* FIN STYLES GENERAUX */
-
 /* DEBUT HEADER */
-
 #banderole{
   background-color: #041899;
 }
-
 .logo-header{
   height: 100px;
   margin: 10px;
 }
-
 /* FIN HEADER */
-
 /* DEBUT NAV */
-
 .navbar{
   background-color: #0a1554;
   font-size: 1.3em;
 }
-
 .dropdown-menu{
   background-color: #0a1554;
 }
-
 .dropdown-menu a{
   color: white;
   font-size: 1.4em;
 }
-
 .dropdown-menu a:hover{
   background-color: black;
   color: white;
 }
-
 /* FIN NAV */
-
 /* DEBUT MAIN */
-
 .bloc-text{
   background-color: rgba(224, 222, 222, 0.9);
   box-shadow: 4px 4px 4px grey;
   border-radius: 10px;
   margin-bottom: 30px;
 }
-
 .border-left-purple{
 border-left: 6px solid purple;
 }
-
 .border-left-orange{
 border-left: 6px solid orange;
 }
-
 .border-left-orange{
 border-left: 6px solid orange;
 }
-
 /* FIN MAIN */
-
 /* DEBUT FOOTER */
-
 footer{
   background-color: #041899;
   position: absolute;
@@ -98,23 +74,18 @@ footer{
   bottom: 0;
   left: 0;
 }
-
 /* FIN FOOTER */
-
-
 /* page correction vocale */
 .partition{
   width: 100%;
 }
 /* Fin page correction vocale */
-
 /* page edition piste audio */
 .ondes{
   width: 100%;
   max-width: 346px;
 }
 /* Fin page edition piste audio */
-
 /* PAGE SON*/
 #soundcloud-list
 {
@@ -125,18 +96,14 @@ iframe
 {
   width: 100%;
 }
-
 h2{
   margin: 20px 0 20px 0;
   font-size: 40px;
 }
 /* END PAGE SON*/
-
 /* DEBUT MEDIA QUERY */
-
 /* Fait disparaitre le logo de droite sur les smartphones et justify-around le titre et le logo de droite */
 @media screen and (max-width:760px){
-
   .logo-header-2{
     display: none;
   }
@@ -144,18 +111,13 @@ h2{
     justify-content: space-around;
   }
 }
-
 /* Annule la marge autour du logo en mode desktop */
 @media screen and (min-width:760px){
-
  #banderole{
    margin-top: 0;
  }
-
  .logo-header{
    margin: 0;
  }
-
 }
-
 /* FIN MEDIA QUERY */
